@@ -67,6 +67,7 @@ cmake = "*"
 pybind11 = "*"
 pkg-config = "*"
 ninja = "*"
+python = "3.11.*"
 
 [package.host-dependencies]
 hdf5 = { version = "*", build = "* mpi_openmpi*" }
