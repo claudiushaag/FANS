@@ -31,6 +31,8 @@ fftw = { version = ">=3.3.10,<4", build = "mpi_openmpi_*" }
 eigen = ">=3.4.0,<4"
 nlohmann_json = ">=3.12.0,<4"
 time = ">=1.9,<2"
+pybind11 = ">=3.0.1,<4"
+python = "3.11.*"
 
 [tasks]
 test = { cmd = "pytest -v -s --from-pixi", cwd = "test/pytest", depends-on = ["test-fans"] }
